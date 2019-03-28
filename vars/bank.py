@@ -57,3 +57,11 @@ def tri_recursion(k):
     return result
 
 tri_recursion(6)
+
+blah_2_blach = 2
+print(blah_2_blach)
+
+print(type(None))
+
+age = None
+print(age)

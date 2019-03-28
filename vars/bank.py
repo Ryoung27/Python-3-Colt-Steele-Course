@@ -65,3 +65,8 @@ print(type(None))
 
 age = None
 print(age)
+
+city = "Nashville"
+price = 2.00
+high_score = 100000000
+is_having_fun = true

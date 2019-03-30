@@ -75,3 +75,23 @@ is_having_fun = True
 witch_mountain = "/\/\/\/\/\/\/\\"
 
 print(witch_mountain)
+
+cars = ["Toyota", "Honda", "Pontiac"]
+print(cars)
+
+cars.pop()
+
+cars.append("Ford")
+print(cars)
+
+cars.sort()
+cars.remove("Honda")
+print(cars)
+
+def car_factory():
+    cars.pop()
+    cars.pop()
+    cars.append("Toyota")
+    print(cars)
+
+car_factory()

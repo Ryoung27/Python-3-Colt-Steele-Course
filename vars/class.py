@@ -33,3 +33,6 @@ print(pontiac.make)
 
 
 pontiac.make
+
+my_name = "My name {} {}"
+print(my_name.format("Richie", "Young"))

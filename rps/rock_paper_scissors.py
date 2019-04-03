@@ -10,7 +10,7 @@ computer_input = random.randint(0,2)
 # else:
 #     print("NO")
 
-if user_input not in ("R", "S", "P") :
+if user_input not in ("R", "S", "P", "r", "s", "p") :
     print("Invalid input")
 elif user_input == "R" and computer_input == 0:
     print("You win!")
@@ -29,4 +29,22 @@ elif user_input == "P" and computer_input == 0:
 elif user_input == "P" and computer_input == 1:
     print("You lose.")
 elif user_input == "P" and computer_input == 2:
+    print("Draw")
+elif user_input == "r" and computer_input == 0:
+    print("You win!")
+elif user_input == "r" and computer_input == 1:
+    print("You lose.")
+elif user_input == "r" and computer_input == 2:
+    print("Draw")
+elif user_input == "s" and computer_input == 0:
+    print("You win!")
+elif user_input == "s" and computer_input == 1:
+    print("You lose.")
+elif user_input == "s" and computer_input == 2:
+    print("Draw")
+elif user_input == "p" and computer_input == 0:
+    print("You win!")
+elif user_input == "p" and computer_input == 1:
+    print("You lose.")
+elif user_input == "p" and computer_input == 2:
     print("Draw")

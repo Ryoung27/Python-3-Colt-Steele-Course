@@ -20,21 +20,21 @@ def rps():
         print("You win!")
     elif user_input in ("R", "S", "P", "r", "s", "p") and computer_input == 1:
         if user_input in ("R" "r"):
-            winner = "Paper"
+            loser = "Paper"
         elif user_input in ("S" "s"):
-            winner = "Rock"
+            loser = "Rock"
         else:
-            winner = "Scissors"
-        print("The computer picked %s" % winner )
+            loser = "Scissors"
+        print("The computer picked %s" % loser )
         print("You lose.")
     elif user_input in ("R", "S", "P", "r", "s", "p") and computer_input == 2:
         if user_input in ("R" "r"):
-            winner = "Rock"
+            draw = "Rock"
         elif user_input in ("S" "s"):
-            winner = "Scissor"
+            draw = "Scissor"
         else:
-            winner = "Paper"
-        print("The computer picked %s" % winner )
+            draw = "Paper"
+        print("The computer picked %s" % draw )
         print("Draw")
     play_again = str(input("Do you want to play again? (Y/N) "))
     if play_again in ("Y", "y"):

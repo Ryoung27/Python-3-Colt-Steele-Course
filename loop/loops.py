@@ -6,3 +6,15 @@ for i in range(1, 8):
 
 for i in "Coffee":
     print("To much")
+
+for i in range(8, 0, -2):
+    print(i)
+x = 0
+# for i in range(11, 20, 2):
+#     x = x + i
+#     print(i)
+#     print(x)
+
+for i in range(11,21,2):
+        x += i
+        print(x)

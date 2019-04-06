@@ -1,6 +1,6 @@
 from random import randint
 
-number = randint(1,5)
+number = 0
 while number != 5:
     number = randint(1,5)
     print(number)

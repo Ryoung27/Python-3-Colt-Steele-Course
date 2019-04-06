@@ -1,20 +1,27 @@
-for char in "Hello":
-    print(char)
+from random import randint
 
-for i in range(1, 8):
-    print(i)
+number = randint(1,5)
+while number != 5:
+    number = randint(1,5)
+    print(number)
 
-for i in "Coffee":
-    print("To much")
+# for char in "Hello":
+#     print(char)
 
-for i in range(8, 0, -2):
-    print(i)
-x = 0
-# for i in range(11, 20, 2):
-#     x = x + i
+# for i in range(1, 8):
 #     print(i)
-#     print(x)
 
-for i in range(11,21,2):
-        x += i
-        print(x)
+# for i in "Coffee":
+#     print("To much")
+
+# for i in range(8, 0, -2):
+#     print(i)
+# x = 0
+# # for i in range(11, 20, 2):
+# #     x = x + i
+# #     print(i)
+# #     print(x)
+
+# for i in range(11,21,2):
+#         x += i
+#         print(x)

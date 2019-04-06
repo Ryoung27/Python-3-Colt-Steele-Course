@@ -39,12 +39,20 @@
 
 # Lucky number
 
-for num in range(1,21):
-    if num % 2 == 0:
-        print( str(num) + " Is Even")
-    if num % 2 != 0:
-        print( str(num) + " Is Odd")
-    if num % 13 == 0:
-        print( str(num) + " Unlucky number" )
-    if num == 4:
-        print( str(num) + " Unlucky number")
+# for num in range(1,21):
+#     if num % 2 == 0:
+#         print( str(num) + " Is Even")
+#     if num % 2 != 0:
+#         print( str(num) + " Is Odd")
+#     if num % 13 == 0:
+#         print( str(num) + " Unlucky number" )
+#     if num == 4:
+#         print( str(num) + " Unlucky number")
+
+for i in range(0,9):
+    print ("\U0001f600" * i)
+# i = 0
+# while i < 9:
+#     i = i + 1
+
+#     print ("\U0001f600")

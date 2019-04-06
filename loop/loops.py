@@ -1,0 +1,12 @@
+yamaha
+    printPhoto
+    printprice
+    calcLoc
+pianoOne
+    printPhoto
+    printprice
+    calcLoc
+pianoTwo
+    printPhoto
+    printprice
+    calcLoc

@@ -1,9 +1,9 @@
-from random import randint
+# from random import randint
 
-number = 0
-while number != 5:
-    number = randint(1,5)
-    print(number)
+# number = 0
+# while number != 5:
+#     number = randint(1,5)
+#     print(number)
 
 # for char in "Hello":
 #     print(char)
@@ -25,3 +25,14 @@ while number != 5:
 # for i in range(11,21,2):
 #         x += i
 #         print(x)
+
+
+#CLEAN UP YOUR ROOM!!!
+
+times = int(input("How many times do I have to tell you? "))
+
+this_many = 0
+
+while this_many < times:
+    print("Clean your room!")
+    this_many += 1

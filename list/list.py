@@ -19,9 +19,17 @@
 
 # print(people)
 
-sounds = ["super", "cali", "fragil", "istic", "expi", "ali", "docious"]
-results = ""
-for i in sounds:
-    # results = ""
-    results += i
-print(results.upper())
+# sounds = ["super", "cali", "fragil", "istic", "expi", "ali", "docious"]
+# results = ""
+# for i in sounds:
+#     # results = ""
+#     results += i
+# print(results.upper())
+
+instructors = []
+
+instructors.append("Colt")
+instructors.append("Blue")
+instructors.append("Lisa")
+
+print(instructors)

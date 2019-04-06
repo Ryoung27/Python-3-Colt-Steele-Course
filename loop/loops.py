@@ -29,10 +29,22 @@
 
 #CLEAN UP YOUR ROOM!!!
 
-times = int(input("How many times do I have to tell you? "))
+# times = int(input("How many times do I have to tell you? "))
 
-this_many = 0
+# this_many = 0
 
-while this_many < times:
-    print("Clean your room!")
-    this_many += 1
+# while this_many < times:
+#     print("Clean your room!")
+#     this_many += 1
+
+# Lucky number
+
+for num in range(1,21):
+    if num % 2 == 0:
+        print( str(num) + " Is Even")
+    if num % 2 != 0:
+        print( str(num) + " Is Odd")
+    if num % 13 == 0:
+        print( str(num) + " Unlucky number" )
+    if num == 4:
+        print( str(num) + " Unlucky number")

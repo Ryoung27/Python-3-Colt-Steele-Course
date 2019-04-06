@@ -1,12 +1,5 @@
-yamaha
-    printPhoto
-    printprice
-    calcLoc
-pianoOne
-    printPhoto
-    printprice
-    calcLoc
-pianoTwo
-    printPhoto
-    printprice
-    calcLoc
+for char in "Hello":
+    print(char)
+
+for i in range(1, 8):
+    print(i)

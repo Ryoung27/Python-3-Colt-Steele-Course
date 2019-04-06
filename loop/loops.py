@@ -49,10 +49,14 @@
 #     if num == 4:
 #         print( str(num) + " Unlucky number")
 
-for i in range(0,9):
-    print ("\U0001f600" * i)
-# i = 0
-# while i < 9:
-#     i = i + 1
+# for i in range(0,9):
+#     print ("\U0001f600" * i)
+# user_input = input("Hey how's it going? ")
+user_input = None
+while user_input != "Stop copying me!!!":
+    user_input = input("Hey how's it going? ")
+    if user_input == "Stop copying me!!!":
+        break
+    else:
+        print(user_input)
 
-#     print ("\U0001f600")

@@ -35,7 +35,12 @@
 # print(instructors)
 
 
-task = ['Install Python', 'Learn Python', 'Take a break']
-demo_list = ["a", 1, 45, True]
+# task = ['Install Python', 'Learn Python', 'Take a break']
+# demo_list = ["a", 1, 45, True]
 
-print(len(demo_list))
+# print(len(demo_list))
+
+friends = ["Ashley", "Matt", "Michael"]
+
+print(friends[1])
+print(friends[-2])

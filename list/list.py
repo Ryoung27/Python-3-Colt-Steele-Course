@@ -42,5 +42,8 @@
 
 friends = ["Ashley", "Matt", "Michael"]
 
-print(friends[1])
-print(friends[-2])
+# print(friends[1])
+# print(friends[-2])
+
+for friends in friends:
+    print(friends)

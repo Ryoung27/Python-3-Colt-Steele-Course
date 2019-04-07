@@ -45,5 +45,12 @@ friends = ["Ashley", "Matt", "Michael"]
 # print(friends[1])
 # print(friends[-2])
 
-for friends in friends:
-    print(friends)
+# for friends in friends:
+#     print(friends)
+
+friends.append("Chandler")
+print(friends)
+
+friends.extend(["Ross", "Phoebe"])
+friends.insert(1, ["Monica", "Joey"])
+print(friends)

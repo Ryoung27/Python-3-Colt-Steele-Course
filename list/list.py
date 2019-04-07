@@ -54,3 +54,9 @@ print(friends)
 friends.extend(["Ross", "Phoebe"])
 friends.insert(1, ["Monica", "Joey"])
 print(friends)
+
+friends.remove(["Monica", "Joey"])
+print(friends)
+
+friends.clear()
+print(friends)

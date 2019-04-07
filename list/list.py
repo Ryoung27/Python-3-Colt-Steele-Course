@@ -26,10 +26,16 @@
 #     results += i
 # print(results.upper())
 
-instructors = []
+# instructors = []
 
-instructors.append("Colt")
-instructors.append("Blue")
-instructors.append("Lisa")
+# instructors.append("Colt")
+# instructors.append("Blue")
+# instructors.append("Lisa")
 
-print(instructors)
+# print(instructors)
+
+
+task = ['Install Python', 'Learn Python', 'Take a break']
+demo_list = ["a", 1, 45, True]
+
+print(len(demo_list))

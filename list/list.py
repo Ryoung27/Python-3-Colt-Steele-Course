@@ -48,15 +48,31 @@ friends = ["Ashley", "Matt", "Michael"]
 # for friends in friends:
 #     print(friends)
 
-friends.append("Chandler")
+# friends.append("Chandler")
+# print(friends)
+
+# friends.extend(["Ross", "Phoebe"])
+# friends.insert(1, ["Monica", "Joey"])
+# print(friends)
+
+# friends.remove(["Monica", "Joey"])
+# print(friends)
+
+# friends.clear()
+# print(friends)
+
+print(friends.index("Matt"))
+
+print(friends.count("Matt"))
+print(friends.reverse())
+print(friends)
+friends.sort()
 print(friends)
 
-friends.extend(["Ross", "Phoebe"])
-friends.insert(1, ["Monica", "Joey"])
-print(friends)
+some_list = ["Goku", "Krillin", "Vegeta", "Yamcha", "Gohan"]
 
-friends.remove(["Monica", "Joey"])
-print(friends)
+sayians = some_list[0::2]
+fodder = some_list[1::2]
 
-friends.clear()
-print(friends)
+print(sayians)
+print(fodder)

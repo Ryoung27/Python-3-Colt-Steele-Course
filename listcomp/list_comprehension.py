@@ -1,21 +1,29 @@
-nums = [1, 2, 3]
+name = ["Elie", "Tim", "Matt"]
+answer = [i[0] for i in name]
+print(answer)
 
-multi_nums = [x*10 for x in nums]
+numbers = [1,2,3,4,5,6]
+answer2 = [num for num in numbers if num % 2 == 0]
+print(answer2)
 
-print(multi_nums)
+# nums = [1, 2, 3]
 
-name = 'richie'
-big_name = [i.upper() for i in name]
-print(big_name)
-boo_test = [bool(val) for val in [0, [], '', True]]
-print(boo_test)
+# multi_nums = [x*10 for x in nums]
 
-nums = [1, 2, 3, 4, 5]
-string_nums = [str(num) for num in nums]
-print(string_nums)
+# print(multi_nums)
 
-numbers = [1, 2, 3, 4, 5, 6]
+# name = 'richie'
+# big_name = [i.upper() for i in name]
+# print(big_name)
+# boo_test = [bool(val) for val in [0, [], '', True]]
+# print(boo_test)
 
-evens = [num for num in numbers if num % 2 == 0]
+# nums = [1, 2, 3, 4, 5]
+# string_nums = [str(num) for num in nums]
+# print(string_nums)
 
-oods = [num for num in numbers if num % 2 != 0]
+# numbers = [1, 2, 3, 4, 5, 6]
+
+# evens = [num for num in numbers if num % 2 == 0]
+
+# oods = [num for num in numbers if num % 2 != 0]

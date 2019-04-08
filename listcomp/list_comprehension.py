@@ -1,10 +1,21 @@
 name = ["Elie", "Tim", "Matt"]
+answer2 = [i[::-1].lower() for i in name]
 answer = [i[0] for i in name]
 print(answer)
+print(answer2)
 
 numbers = [1,2,3,4,5,6]
 answer2 = [num for num in numbers if num % 2 == 0]
 print(answer2)
+
+test = [1,2,3,4]
+test2 = [3,4,5,6]
+
+answer3 = []
+for x in test:
+    if x in test2:
+        answer3.append(x)
+print(answer3)
 
 # nums = [1, 2, 3]
 

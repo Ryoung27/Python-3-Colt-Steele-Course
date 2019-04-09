@@ -1,7 +1,15 @@
-amazing = "amazing"
+# number_list = [0,1,2]
+# answer = []
+# answer = [[i for i in range (0,3)] for num in range(0,3)]
+# print(answer)
 
-answer = [i for i in amazing if i not in ("a","i")]
-print(answer)
+test = [[i for i in range(0, 10)] for num in range(0,9)]
+print(test)
+
+# amazing = "amazing"
+
+# answer = [i for i in amazing if i not in ("a","i")]
+# print(answer)
 
 # answer = [i for i in range(1,100) if i % 12 == 0]
 # print(answer)

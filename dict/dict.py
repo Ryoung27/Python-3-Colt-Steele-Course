@@ -9,3 +9,13 @@ ronnie = {
 another_dict = dict(key="value", name= "Test")
 
 print(another_dict)
+
+user_info = dict(location="Nashville", state="Tennessee", home="Claiborne")
+user_two = {
+    "name": "Random",
+    "last_name": "House",
+    "test": 4
+}
+
+print(user_info)
+print(user_two)

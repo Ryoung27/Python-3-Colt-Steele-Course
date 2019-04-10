@@ -11,11 +11,14 @@
 # print(another_dict)
 
 # user_info = dict(location="Nashville", state="Tennessee", home="Claiborne")
-# user_two = {
-#     "name": "Random",
-#     "last_name": "House",
-#     "test": 4
-# }
+user_two = {
+    "name": "Random",
+    "last_name": "House",
+    "test": 4
+}
+
+print("name" in user_two)
+print("House" in user_two.values())
 
 # print(user_info)
 # print(user_two)
@@ -58,8 +61,9 @@
 
 # initial_game_properties = dict.fromkeys(game_properties, 0)
 
-list1 = ["CA", "NJ", "RI"]
-list2 = ["California", "New Jersey", "Rhode Island"]
+# list1 = ["CA", "NJ", "RI"]
+# list2 = ["California", "New Jersey", "Rhode Island"]
 
-answer = {list1[i]: list2[i] for i in range(0,3)}
-print(answer)
+# answer = {list1[i]: list2[i] for i in range(0,3)}
+# print(answer)
+

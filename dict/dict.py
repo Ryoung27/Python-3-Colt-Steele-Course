@@ -37,3 +37,19 @@ total_donations = 0
 for i in donations.values():
     total_donations = total_donations + i
 print(total_donations)
+
+from random import choice #DON'T CHANGE!
+food = choice(["cheese pizza", "quiche","morning bun","gummy bear","tea cake"])
+
+bakery_stock = {
+    "almond croissant" : 12,
+    "toffee cookie": 3,
+    "morning bun": 1,
+    "chocolate chunk cookie": 9,
+    "tea cake": 25
+}
+
+for food in bakery_stock:
+    print("{} left".format(bakery_stock[food]))
+else:
+    print("We don't have that")

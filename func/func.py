@@ -21,3 +21,23 @@ def yell(scream_it):
     return scream_it.upper()
 
 print(yell("ahhhh"))
+
+def speak(animal):
+    if animal == "pig":
+        return "Oink"
+    elif animal == "duck":
+        return "Quack"
+    elif animal == "cat":
+        return "Meow"
+    elif animal == None:
+        animal == "dog"
+    elif animal == "dog":
+        return "Bark"
+    else:
+        return "???"
+
+print(speak("dog"))
+print(speak("cat"))
+print(speak("dog"))
+print(speak("m"))
+

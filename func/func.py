@@ -16,3 +16,8 @@ def generate_evens():
     print(list_even)
 
 generate_evens()
+
+def yell(scream_it):
+    return scream_it.upper()
+
+print(yell("ahhhh"))

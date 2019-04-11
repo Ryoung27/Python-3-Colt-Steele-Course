@@ -71,8 +71,16 @@
 
 
 
-inventory = {'croissant': 19, 'bagel': 4, 'muffin': 8, 'cake': 1}
-stock_list = {'croissant': 19, 'bagel': 4, 'muffin': 8, 'cake': 1, 'cookie': 18}
+# inventory = {'croissant': 19, 'bagel': 4, 'muffin': 8, 'cake': 1}
+# stock_list = {'croissant': 19, 'bagel': 4, 'muffin': 8, 'cake': 1, 'cookie': 18}
 
-stock_list.pop("cake")
-print(stock_list)
+# stock_list.pop("cake")
+# print(stock_list)
+
+person = [["name", "Jarded"], ["job", "Musician"], ["city", "Bern"]]
+answer = {k:v for k,v in person}
+print(answer)
+
+answer = {char:0 for char in 'aeiou'}
+
+print(answer)

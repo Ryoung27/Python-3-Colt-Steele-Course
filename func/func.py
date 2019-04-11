@@ -55,3 +55,16 @@ def product(x, y):
 
 print(product(1, 1))
 print(product(7, 10))
+
+def week_day(x):
+    if x == 1:
+        return "Sunday"
+    elif x == 2:
+        return "Monday"
+    elif x == 3:
+        return "Tuesday"
+    else:
+        return "None of that."
+
+print(week_day(2))
+print(week_day(0))

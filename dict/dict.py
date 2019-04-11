@@ -19,6 +19,8 @@ user_two = {
 
 print("name" in user_two)
 print("House" in user_two.values())
+user_two.pop("name")
+print(user_two)
 
 # print(user_info)
 # print(user_two)

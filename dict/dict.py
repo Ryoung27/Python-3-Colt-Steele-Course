@@ -10,17 +10,17 @@
 
 # print(another_dict)
 
-# user_info = dict(location="Nashville", state="Tennessee", home="Claiborne")
-user_two = {
-    "name": "Random",
-    "last_name": "House",
-    "test": 4
-}
+# # user_info = dict(location="Nashville", state="Tennessee", home="Claiborne")
+# user_two = {
+#     "name": "Random",
+#     "last_name": "House",
+#     "test": 4
+# }
 
-print("name" in user_two)
-print("House" in user_two.values())
-user_two.pop("name")
-print(user_two)
+# print("name" in user_two)
+# print("House" in user_two.values())
+# user_two.pop("name")
+# print(user_two)
 
 # print(user_info)
 # print(user_two)
@@ -69,3 +69,10 @@ print(user_two)
 # answer = {list1[i]: list2[i] for i in range(0,3)}
 # print(answer)
 
+
+
+inventory = {'croissant': 19, 'bagel': 4, 'muffin': 8, 'cake': 1}
+stock_list = {'croissant': 19, 'bagel': 4, 'muffin': 8, 'cake': 1, 'cookie': 18}
+
+stock_list.pop("cake")
+print(stock_list)

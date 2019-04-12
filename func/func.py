@@ -48,23 +48,32 @@
 #             count += 1
 #     return count
 
-# print(count_dollar_signs("$uper $ize"))
+# # print(count_dollar_signs("$uper $ize"))
 
-def product(x, y):
-    return(x * y)
+# def product(x, y):
+#     return(x * y)
 
-print(product(1, 1))
-print(product(7, 10))
+# print(product(1, 1))
+# print(product(7, 10))
 
-def week_day(x):
-    if x == 1:
-        return "Sunday"
-    elif x == 2:
-        return "Monday"
-    elif x == 3:
-        return "Tuesday"
-    else:
-        return "None of that."
+# def week_day(x):
+#     if x == 1:
+#         return "Sunday"
+#     elif x == 2:
+#         return "Monday"
+#     elif x == 3:
+#         return "Tuesday"
+#     else:
+#         return "None of that."
 
-print(week_day(2))
-print(week_day(0))
+# print(week_day(2))
+# print(week_day(0))
+
+def last_element(x):
+    for i in x:
+        if i == x[-1]:
+            print(i)
+        else:
+            pass
+
+last_element([1,2,3,4,5])

@@ -78,14 +78,24 @@
 
 # last_element([1,2,3,4,5])
 
-def number_compare(x, y):
-    if x > y:
-        print("First is greater.")
-    elif x == y:
-        print("Equal")
-    else:
-        print("Second is greater.")
+# def number_compare(x, y):
+#     if x > y:
+#         print("First is greater.")
+#     elif x == y:
+#         print("Equal")
+#     else:
+#         print("Second is greater.")
 
-number_compare(10,100)
-number_compare(10, 10)
-number_compare(100, 10)
+# number_compare(10,100)
+# number_compare(10, 10)
+# number_compare(100, 10)
+
+
+def single_letter_count(x, y):
+    count = 0
+    for i in x:
+        if i == y:
+            count += 1
+    print(count)
+
+single_letter_count("Shazamm", "m")

@@ -1,12 +1,17 @@
-from random import random
+def square(x):
+    return x * x
 
-def coin_flip():
-    coin = random()
-    if coin > 0.5:
-        return "Heads"
-    else:
-        return "Tails"
-print(coin_flip())
+print(square(2))
+
+# from random import random
+
+# def coin_flip():
+#     coin = random()
+#     if coin > 0.5:
+#         return "Heads"
+#     else:
+#         return "Tails"
+# print(coin_flip())
 
 
 # def print_square_of_7():

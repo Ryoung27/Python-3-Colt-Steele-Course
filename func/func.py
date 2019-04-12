@@ -1,10 +1,21 @@
-def name_of_function():
-    print("Hi")
+def print_square_of_7():
+    print(7 * 7)
 
-def happy_birthday():
-    print("Happy birthday to you.")
+print_square_of_7()
 
-happy_birthday()
+def square_of_10():
+    return(10 * 10)
+
+ten = square_of_10()
+print(ten)
+
+# def name_of_function():
+#     print("Hi")
+
+# def happy_birthday():
+#     print("Happy birthday to you.")
+
+# happy_birthday()
 
 # def make_noise():
 #     print("hello")

@@ -69,11 +69,23 @@
 # print(week_day(2))
 # print(week_day(0))
 
-def last_element(x):
-    for i in x:
-        if i == x[-1]:
-            print(i)
-        else:
-            pass
+# def last_element(x):
+#     for i in x:
+#         if i == x[-1]:
+#             print(i)
+#         else:
+#             pass
 
-last_element([1,2,3,4,5])
+# last_element([1,2,3,4,5])
+
+def number_compare(x, y):
+    if x > y:
+        print("First is greater.")
+    elif x == y:
+        print("Equal")
+    else:
+        print("Second is greater.")
+
+number_compare(10,100)
+number_compare(10, 10)
+number_compare(100, 10)

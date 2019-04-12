@@ -1,13 +1,24 @@
-def print_square_of_7():
-    print(7 * 7)
+from random import random
 
-print_square_of_7()
+def coin_flip():
+    coin = random()
+    if coin > 0.5:
+        return "Heads"
+    else:
+        return "Tails"
+print(coin_flip())
 
-def square_of_10():
-    return(10 * 10)
 
-ten = square_of_10()
-print(ten)
+# def print_square_of_7():
+#     print(7 * 7)
+
+# print_square_of_7()
+
+# def square_of_10():
+#     return(10 * 10)
+
+# ten = square_of_10()
+# print(ten)
 
 # def name_of_function():
 #     print("Hi")

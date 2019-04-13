@@ -1,12 +1,26 @@
-def mulitply_even_numbers(a_list):
-    sum = 1
-    for i in a_list:
-        if i % 2 == 0:
-            sum = sum * i
-    print(sum)
+def capitalize(string):
+    return string[:1].upper() + string[1:]
+    # racecar = str()
+    # for i in x:
+    #     if i == x[0]:
+    #         print("inside")
+    #         i.upper()
+    #         racecar = racecar + i
+    #     else:
+    #         racecar=  racecar + i
 
-a_list= [1,2,3,4,1,1,1,1,1, 4, 2]
-mulitply_even_numbers(a_list)
+    # print(racecar)
+print(capitalize("racecar"))
+
+# def mulitply_even_numbers(a_list):
+#     sum = 1
+#     for i in a_list:
+#         if i % 2 == 0:
+#             sum = sum * i
+#     print(sum)
+
+# a_list= [1,2,3,4,1,1,1,1,1, 4, 2]
+# mulitply_even_numbers(a_list)
 
 # def frequency(a_list, x):
 #     count = 0

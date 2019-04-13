@@ -1,20 +1,35 @@
-def list_manipulation(a_list, command, location, value):
-    if command == 'remove' and location == 'end':
-        del a_list[-1]
-    elif command == 'remove' and location == "beginning":
-        del a_list[0]
-    elif command == "add" and location == "beginning":
-        return a_list.insert(0, value)
-    elif command == "add" and location == "end":
-        return a_list.append(value)
+def reverse(x):
+    return x[::-1]
 
-a_list=[1,2,3,4,5]
+print(reverse("racecar"))
 
-list_manipulation(a_list, "add", "end", 6)
-print(a_list)
-list_manipulation(a_list, "remove", "end", 0)
-print(a_list)
-# def square(num):
+
+def is_pali(x):
+    rev = reverse(x)
+    if x == rev:
+        print("It's a palindrome Harry")
+    else:
+        print("Not a palindrome")
+
+is_pali("racecar")
+is_pali("Jackson")
+# def list_manipulation(a_list, command, location, value):
+#     if command == 'remove' and location == 'end':
+#         del a_list[-1]
+#     elif command == 'remove' and location == "beginning":
+#         del a_list[0]
+#     elif command == "add" and location == "beginning":
+#         return a_list.insert(0, value)
+#     elif command == "add" and location == "end":
+#         return a_list.append(value)
+
+# a_list=[1,2,3,4,5]
+
+# list_manipulation(a_list, "add", "end", 6)
+# print(a_list)
+# list_manipulation(a_list, "remove", "end", 0)
+# print(a_list)
+# # def square(num):
 #     return num * num
 
 # def multiply(x, y):

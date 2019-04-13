@@ -1,18 +1,22 @@
-a_list = [1,2,3,4,5,6,10,9,8]
+def vowel_count(string):
+    lower_s = string.lower()
+    return {letter: lower_s.count(letter) for letter in lower_s if letter in "aeiou"}
+
+# a_list = [1,2,3,4,5,6,10,9,8]
 # b_list = ["WHAt", "Try", "This"]
 # other_list = []
 
-def sum_pairs(x, t):
-    for i in range(0, t):
-        for j in range(i + 1, t):
-            if a_list[i] + a_list[j] == sum:
-                print(sum)
-    # for i in x:
-    #     if y in x:
-    #         if y + x == t:
-    #             return t
+# def sum_pairs(x, t):
+#     for i in range(0, t):
+#         for j in range(i + 1, t):
+#             if a_list[i] + a_list[j] == sum:
+#                 print(sum)
+#     # for i in x:
+#     #     if y in x:
+#     #         if y + x == t:
+#     #             return t
 
-sum_pairs(a_list, 10)
+# sum_pairs(a_list, 10)
 
 
 

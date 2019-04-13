@@ -1,7 +1,11 @@
-def square(x):
-    return x * x
+def square(num):
+    return num * num
 
-print(square(2))
+
+# def square(x):
+#     return x * x
+
+# print(square(2))
 
 # from random import random
 

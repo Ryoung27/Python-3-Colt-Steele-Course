@@ -1,13 +1,20 @@
-def intersection(x, y):
-    new_list = []
-    for i in x:
-        for n in y:
-            if i == n:
-                new_list.append(i)
-    return new_list
+# def intersection(x, y):
+#     new_list = []
+#     for i in x:
+#         for n in y:
+#             if i == n:
+#                 new_list.append(i)
+#     return new_list
 
-print(intersection([1,2,3,4],[3,4,5,6,7]))
+# print(intersection([1,2,3,4],[3,4,5,6,7]))
 
+def reverse_string(string):
+    # print("something")
+    string[::-1]
+    print(string[::-1])
+    # string = string[:-1]
+
+reverse_string("Racecar")
 
 # def capitalize(string):
 #     return string[:1].upper() + string[1:]

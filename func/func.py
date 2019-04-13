@@ -1,3 +1,30 @@
+a_list = [1,2,3,4,5,6,10,9,8]
+b_list = ["WHAt", "Try", "This"]
+other_list = []
+
+def remove_every_other(x):
+    other_list= x[::2]
+    # for i in x:
+
+    #     if i[ % 2 == 0:
+    #         red = red + 1
+    #         other_list.append(i)
+    print(other_list)
+
+remove_every_other(a_list)
+remove_every_other(b_list)
+
+
+# x = [[],[1],[2,3], (1,2)]
+# def list_check(x):
+#     for i in x:
+#         if isinstance(i, list):
+#             return True
+#             print("True")
+#         else:
+#             return False
+
+# list_check(x)
 # def intersection(x, y):
 #     new_list = []
 #     for i in x:
@@ -6,15 +33,15 @@
 #                 new_list.append(i)
 #     return new_list
 
-# print(intersection([1,2,3,4],[3,4,5,6,7]))
+# # print(intersection([1,2,3,4],[3,4,5,6,7]))
 
-def reverse_string(string):
-    # print("something")
-    string[::-1]
-    print(string[::-1])
-    # string = string[:-1]
+# def reverse_string(string):
+#     # print("something")
+#     string[::-1]
+#     print(string[::-1])
+#     # string = string[:-1]
 
-reverse_string("Racecar")
+# reverse_string("Racecar")
 
 # def capitalize(string):
 #     return string[:1].upper() + string[1:]

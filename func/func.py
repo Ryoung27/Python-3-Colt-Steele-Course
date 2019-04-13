@@ -1,16 +1,27 @@
-def capitalize(string):
-    return string[:1].upper() + string[1:]
-    # racecar = str()
-    # for i in x:
-    #     if i == x[0]:
-    #         print("inside")
-    #         i.upper()
-    #         racecar = racecar + i
-    #     else:
-    #         racecar=  racecar + i
+def intersection(x, y):
+    new_list = []
+    for i in x:
+        for n in y:
+            if i == n:
+                new_list.append(i)
+    return new_list
 
-    # print(racecar)
-print(capitalize("racecar"))
+print(intersection([1,2,3,4],[3,4,5,6,7]))
+
+
+# def capitalize(string):
+#     return string[:1].upper() + string[1:]
+#     # racecar = str()
+#     # for i in x:
+#     #     if i == x[0]:
+#     #         print("inside")
+#     #         i.upper()
+#     #         racecar = racecar + i
+#     #     else:
+#     #         racecar=  racecar + i
+
+#     # print(racecar)
+# print(capitalize("racecar"))
 
 # def mulitply_even_numbers(a_list):
 #     sum = 1

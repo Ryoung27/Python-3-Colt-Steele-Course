@@ -1,18 +1,29 @@
-def reverse(x):
-    return x[::-1]
+def frequency(a_list, x):
+    count = 0
+    for i in a_list:
+        if i == x:
+            count = count + 1
+    print(count)
 
-print(reverse("racecar"))
+a_list= [1,2,3,4,1,1,1,1,1]
+
+frequency(a_list, 1)
+
+# def reverse(x):
+#     return x[::-1]
+
+# print(reverse("racecar"))
 
 
-def is_pali(x):
-    rev = reverse(x)
-    if x == rev:
-        print("It's a palindrome Harry")
-    else:
-        print("Not a palindrome")
+# def is_pali(x):
+#     rev = reverse(x)
+#     if x == rev:
+#         print("It's a palindrome Harry")
+#     else:
+#         print("Not a palindrome")
 
-is_pali("racecar")
-is_pali("Jackson")
+# is_pali("racecar")
+# is_pali("Jackson")
 # def list_manipulation(a_list, command, location, value):
 #     if command == 'remove' and location == 'end':
 #         del a_list[-1]

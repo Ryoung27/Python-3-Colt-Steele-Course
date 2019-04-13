@@ -1,13 +1,23 @@
-def frequency(a_list, x):
-    count = 0
+def mulitply_even_numbers(a_list):
+    sum = 1
     for i in a_list:
-        if i == x:
-            count = count + 1
-    print(count)
+        if i % 2 == 0:
+            sum = sum * i
+    print(sum)
 
-a_list= [1,2,3,4,1,1,1,1,1]
+a_list= [1,2,3,4,1,1,1,1,1, 4, 2]
+mulitply_even_numbers(a_list)
 
-frequency(a_list, 1)
+# def frequency(a_list, x):
+#     count = 0
+#     for i in a_list:
+#         if i == x:
+#             count = count + 1
+#     print(count)
+
+# a_list= [1,2,3,4,1,1,1,1,1]
+
+# frequency(a_list, 1)
 
 # def reverse(x):
 #     return x[::-1]

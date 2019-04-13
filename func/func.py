@@ -1,18 +1,32 @@
 a_list = [1,2,3,4,5,6,10,9,8]
-b_list = ["WHAt", "Try", "This"]
-other_list = []
+# b_list = ["WHAt", "Try", "This"]
+# other_list = []
 
-def remove_every_other(x):
-    other_list= x[::2]
+def sum_pairs(x, t):
+    for i in range(0, t):
+        for j in range(i + 1, t):
+            if a_list[i] + a_list[j] == sum:
+                print(sum)
     # for i in x:
+    #     if y in x:
+    #         if y + x == t:
+    #             return t
 
-    #     if i[ % 2 == 0:
-    #         red = red + 1
-    #         other_list.append(i)
-    print(other_list)
+sum_pairs(a_list, 10)
 
-remove_every_other(a_list)
-remove_every_other(b_list)
+
+
+# def remove_every_other(x):
+#     other_list= x[::2]
+#     # for i in x:
+
+#     #     if i[ % 2 == 0:
+#     #         red = red + 1
+#     #         other_list.append(i)
+#     print(other_list)
+
+# remove_every_other(a_list)
+# remove_every_other(b_list)
 
 
 # x = [[],[1],[2,3], (1,2)]

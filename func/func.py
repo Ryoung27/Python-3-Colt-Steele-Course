@@ -1,6 +1,16 @@
-def vowel_count(string):
-    lower_s = string.lower()
-    return {letter: lower_s.count(letter) for letter in lower_s if letter in "aeiou"}
+def contains_purple(*args):
+    for arg in args:
+        if arg == "Purple":
+            return True
+    else:
+        return False
+
+print(contains_purple("One", "Two", "Purple"))
+
+
+# def vowel_count(string):
+#     lower_s = string.lower()
+#     return {letter: lower_s.count(letter) for letter in lower_s if letter in "aeiou"}
 
 # a_list = [1,2,3,4,5,6,10,9,8]
 # b_list = ["WHAt", "Try", "This"]

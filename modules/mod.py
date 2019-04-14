@@ -2,6 +2,7 @@
 import keyword
 from math import sqrt
 from random import choice, randint
+import helpers
 
 print(choice(["Ronnie", "Richard", "Young"]))
 print(randint(1, 100))
@@ -25,3 +26,5 @@ def contains_keyword(*args):
 
 answer = contains_keyword("Hello", "goodbye")
 print(answer)
+
+print(helpers.lucky_number())

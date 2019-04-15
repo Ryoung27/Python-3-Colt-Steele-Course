@@ -25,3 +25,12 @@ def remove_negatives(l):
 # all([name][0] == "C" for name in people)
 
 raise NameError("blah blah blah")
+
+def colorize(text, color):
+    if type(text) is not str:
+        reaise TypeError("text must be a string")
+
+# def say_hi():
+#     print(f"Hello, My __name__ is {__name__}")
+
+# say_hi()

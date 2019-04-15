@@ -20,3 +20,6 @@ decrement_list([1,2,3])
 
 def remove_negatives(l):
     return list(filter(lambda n: n >= 0, l))
+
+
+all([name][0] == "C" for name in people)

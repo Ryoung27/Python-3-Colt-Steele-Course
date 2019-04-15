@@ -22,4 +22,6 @@ def remove_negatives(l):
     return list(filter(lambda n: n >= 0, l))
 
 
-all([name][0] == "C" for name in people)
+# all([name][0] == "C" for name in people)
+
+raise NameError("blah blah blah")

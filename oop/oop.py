@@ -1,5 +1,5 @@
-def vechicle():
+def Vechicle():
     pass
 
-car = vechicle()
-boat = vechile()
+car = Vechicle()
+boat = Vechile()

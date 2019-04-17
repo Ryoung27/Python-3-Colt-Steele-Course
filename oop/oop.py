@@ -18,10 +18,24 @@
 # def add:
 #     return 3
 
-deck = Deck()
-deck.shuffle()
-hand1 = deck.deal_hand(5)
-hand2 = deck.deal_hand(5)
-print(hand1)
-print(hand2)
-deck.reset()
+# deck = Deck()
+# deck.shuffle()
+# hand1 = deck.deal_hand(5)
+# hand2 = deck.deal_hand(5)
+# print(hand1)
+# print(hand2)
+# deck.reset()
+
+class User:
+    def __init__(self, first, last, age):
+        # print("A new user has been made.")
+        self.first = first
+        self.last = last
+        self.age = age
+
+
+user1 = User("Joe", "Smith", 68)
+user2 = User("Blanca", "", 30)
+user3 = User("Red", "Forman", 55)
+
+print(user2.first, user2.last)

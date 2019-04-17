@@ -33,9 +33,13 @@ class User:
         self.last = last
         self.age = age
 
+    def __repr__(self):
+        return f"{self.first} is {self.age}"
+
 
 user1 = User("Joe", "Smith", 68)
 user2 = User("Blanca", "", 30)
 user3 = User("Red", "Forman", 55)
 
 print(user2.first, user2.last)
+print(user2)

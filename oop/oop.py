@@ -1,11 +1,27 @@
 class Animal:
-    cool = True
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+
+    def __repr__(self):
+        return f"{self.name} is a {self.species}"
 
     def make_sound(self, sound):
         print(f"this animal says {sound}")
 
+    # def make_sound(self, sound):
+    #     print(f"this animal says {sound}")
+
 class Cat(Animal):
-    pass
+    def __init__(self, name, breed, toy):
+        # Animal.__init__(self, name, species) Not common
+        super().__init__(name, species= "Cat")
+        self.species = species
+        self.breed = breed
+        self.toy = toy
+    def play(self):
+        print(f"{self.name} plays with {self.toy}")
+
 
 blue = Cat()
 blue.make_sound("MEOW")
@@ -13,6 +29,8 @@ print(blue.cool)
 
 print(isinstance(blue, Animal))
 print(isinstance(blue, object))
+
+
 
 #Properties
 

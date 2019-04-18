@@ -18,3 +18,9 @@ INSERT INTO table_name (values in table in order) VALUES
 
 SELECT * FROM table_name
 
+# SELECTING CERTAIN QUERIES
+SELECT * FROM dogs
+SELECT * FROM dogs WHERE name IS "Piggy";
+SELECT * FROM dogs Where breed IS "Husky";
+SELECT * FROM dogs WHERE breed IS NOT "chihuahua" and breed IS NOT "PUG" ;
+SELECT * FROM dogs where name LIKE "%gg%"

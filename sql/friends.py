@@ -12,10 +12,25 @@ c = conn.cursor()
 # form_first = "Dana"
 
 #BETTER way
-data = ("Steve", "Irwin", 9)
-query = f"INSERT INTO friends VALUES (?,?,?)"
+# data = ("Steve", "Irwin", 9)
+# query = f"INSERT INTO friends VALUES (?,?,?)"
 
-c.execute(query, data)
+#BULK INSERTION
+people = [
+    ("Roald", "Amundsen", 5),
+    ("Posa", "Rarks", 8),
+    ("Henry", "Hudson", 7),
+    ("Aeil", "Nrmstrong", 7),
+    ("Baneil", "Doone", 10)
+]
+
+# c.executemany("INSERT INTO friends VALUES (?,?,?)", people)
+
+for person in people:
+    c.execute("INSERT INTO friends VALUES (?,?,?)", person)
+    print("INSERTING NOW!")
+
+# c.execute(query, data)
 #COMMIT CHANGES
 conn.commit()
 conn.close()

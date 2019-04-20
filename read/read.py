@@ -20,3 +20,6 @@ with open("haiku.txt", "w") as r:
 with open("haiku.txt") as r:
     difdata = r.read()
     print(difdata)
+
+with open("haiku.txt", "r+") as r:
+    r.write("Look a different line.\n")

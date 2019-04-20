@@ -24,3 +24,5 @@ SELECT * FROM dogs WHERE name IS "Piggy";
 SELECT * FROM dogs Where breed IS "Husky";
 SELECT * FROM dogs WHERE breed IS NOT "chihuahua" and breed IS NOT "PUG" ;
 SELECT * FROM dogs where name LIKE "%gg%"
+
+sqlite3.connect9('example.db')

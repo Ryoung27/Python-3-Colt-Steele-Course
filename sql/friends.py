@@ -5,6 +5,11 @@ conn = sqlite3.connect("my_friends.db")
 #INSERT
 #CREATE CURSOR OBJECT
 c = conn.cursor()
+
+c.execute("SELECT * FROM friends")
+# for results in c:
+#     print(results)
+print(c.fetchall())
 #EXECUTE SOME SQL
 # c.execute("CREATE TABLE friends (first_name TEXT, last_name TEXT, closeness INTEGER);")
 # insert_query = '''INSERT INTO friends VALUES ('Merriwether', 'Lewis', 7)'''
@@ -15,20 +20,20 @@ c = conn.cursor()
 # data = ("Steve", "Irwin", 9)
 # query = f"INSERT INTO friends VALUES (?,?,?)"
 
-#BULK INSERTION
-people = [
-    ("Roald", "Amundsen", 5),
-    ("Posa", "Rarks", 8),
-    ("Henry", "Hudson", 7),
-    ("Aeil", "Nrmstrong", 7),
-    ("Baneil", "Doone", 10)
-]
+# #BULK INSERTION
+# people = [
+#     ("Roald", "Amundsen", 5),
+#     ("Posa", "Rarks", 8),
+#     ("Henry", "Hudson", 7),
+#     ("Aeil", "Nrmstrong", 7),
+#     ("Baneil", "Doone", 10)
+# ]
 
-# c.executemany("INSERT INTO friends VALUES (?,?,?)", people)
+# # c.executemany("INSERT INTO friends VALUES (?,?,?)", people)
 
-for person in people:
-    c.execute("INSERT INTO friends VALUES (?,?,?)", person)
-    print("INSERTING NOW!")
+# for person in people:
+#     c.execute("INSERT INTO friends VALUES (?,?,?)", person)
+#     print("INSERTING NOW!")
 
 # c.execute(query, data)
 #COMMIT CHANGES

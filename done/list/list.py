@@ -76,3 +76,5 @@ fodder = some_list[1::2]
 
 print(sayians)
 print(fodder)
+
+print(sayians[::-1])

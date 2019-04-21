@@ -6,6 +6,7 @@
 test = [[i for i in range(0, 10)] for num in range(0,9)]
 print(test)
 
+
 # amazing = "amazing"
 
 # answer = [i for i in amazing if i not in ("a","i")]

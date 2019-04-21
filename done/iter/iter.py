@@ -28,24 +28,26 @@
 # my_for("hello", print)
 # my_for([1,2,3,4], print)
 
-class Counter:
-    def __init__(self, low, high):
-        self.low = low
-        self.high = high
+# class Counter:
+#     def __init__(self, low, high):
+#         self.low = low
+#         self.high = high
 
-    def __iter__(self):
-        return self
+#     def __iter__(self):
+#         return self
 
-    def __next__(self):
-        if self.current < self.high:
-            num = self.current
-            self.current += 1
-            return num
+#     def __next__(self):
+#         if self.current < self.high:
+#             num = self.current
+#             self.current += 1
+#             return num
 
 
 
-c = Counter(0, 10)
-iter(c)
+# c = Counter(0, 10)
+# iter(c)
 
-for x in Counter(0,4):
-    print(x)
+# for x in Counter(0,4):
+#     print(x)
+
+#Generator

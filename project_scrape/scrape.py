@@ -45,5 +45,6 @@ while guess.lower() != quote["author"].lower()
         print(f"Here's a hint: The author was born on {birth_date} {birth_place}.")
     elif remaining_guesses == 2:
         print(f"Here's a hint: The authors first name starts with {quote["author"][0]}")
-
+    else:
+        print("Sorry you lost.")
 print("After while loop")
